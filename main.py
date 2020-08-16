@@ -32,6 +32,7 @@ while True:
     result = cv2.bitwise_and(frame, frame, mask=mask)
 
     cv2.imshow("Frame", frame)
+    # Remove "#" from below line if you want any specific color
     # cv2.imshow("Red Mask", red_mask)
     # cv2.imshow("Blue Mask", blue_mask)
     # cv2.imshow("Green Mask", green_mask)
